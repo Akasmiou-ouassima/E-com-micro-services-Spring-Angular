@@ -2,7 +2,7 @@
 
 ## Architecture Micro-services
 <p align="center">
-  <img src="captures/img.png" width="500">
+  <img src="captures/img.png" width="700">
 </p>
 
 ## Consul Discovery service
@@ -17,10 +17,10 @@ ou
  <li>consul agent -dev</li>
 </ul>
 
-**Ouvrez un navigateur Web et accédez à l'interface Web de Consul en utilisant l'URL suivante :** http://localhost:8500.
+**Ouvrez un navigateur Web et accédez à l'interface Web de Consul en utilisant l'URL suivante :** http://localhost:8700.
 
 <p align="center">
-  <img src="captures/img_1.png" width="500">
+  <img src="captures/img_1.png" width="700">
 </p>
 
 ## Dépendences des Micro-Services
@@ -28,30 +28,30 @@ ou
 **Config service**
 
 <p align="center">
-  <img src="captures/%23001-dependances-config-service.jpg" width="500">
+  <img src="captures/%23001-dependances-config-service.jpg" width="700">
 </p>
 
 **Tous les services**
 <p align="center">
-  <img src="captures/%23002-dependances-services.jpg" width="500">
+  <img src="captures/%23002-dependances-services.jpg" width="700">
 </p>
 <p align="center">
-  <img src="captures/%23003-dependances-services.jpg" width="500">
+  <img src="captures/%23003-dependances-services.jpg" width="700">
 </p>
 
 **Gateway service**
 <p align="center">
-  <img src="captures/%23004-dependances-gateway.jpg" width="500">
+  <img src="captures/%23004-dependances-gateway.jpg" width="700">
 </p>
 
 **Add Dépendances dans order-service**
 <p align="center">
-  <img src="captures/%23005-add-dependances-in-order-service.jpg" width="500">
+  <img src="captures/%23005-add-dependances-in-order-service.jpg" width="700">
 </p>
 
 **Billing-service**
 <p align="center">
-  <img src="captures/billing.jpg" width="500">
+  <img src="captures/billing.jpg" width="700">
 </p>
 
 ## Test Endpoints des Micro-Services
@@ -59,55 +59,55 @@ ou
 **http://localhost:9999/customer-service/customers**
 
 <p align="center">
-  <img src="captures/img_3.png" width="500">
+  <img src="captures/img_3.png" width="700">
 </p>
 
 **http://localhost:9999/customer-service/customers?projection=fullCustomer**
 
 <p align="center">
-  <img src="captures/img_4.png" width="500">
+  <img src="captures/img_4.png" width="700">
 </p>
 
 **http://localhost:9999/inventory-service/products?projection=fullProduct**
 
 <p align="center">
-  <img src="captures/img_5.png" width="500">
+  <img src="captures/img_5.png" width="700">
 </p>
 
 **http://localhost:9999/inventory-service/products/1?projection=fullProduct**
 
 <p align="center">
-  <img src="captures/img_6.png" width="500">
+  <img src="captures/img_6.png" width="700">
 </p>
 
 **http://localhost:9999/inventory-service/products**
 
 <p align="center">
-  <img src="captures/img_7.png" width="500">
+  <img src="captures/img_7.png" width="700">
 </p>
 
 **http://localhost:9999/order-service/fullOrder/3**
 
 <p align="center">
-  <img src="captures/img_8.png" width="500">
+  <img src="captures/img_8.png" width="700">
 </p>
 
 **http://localhost:9999/order-service/orders**
 
 <p align="center">
-  <img src="captures/img_9.png" width="500">
+  <img src="captures/img_9.png" width="700">
 </p>
 
 **http://localhost:9999/order-service/orders/search/byCustomerId?customerId=1&projection=fullOrder**
 
 <p align="center">
-  <img src="captures/img_10.png" width="500">
+  <img src="captures/img_10.png" width="700">
 </p>
 
 **http://localhost:9999/order-service/orders/search/byCustomerId?projection=fullOrder&customerId=1**
 
 <p align="center">
-  <img src="captures/img_11.png" width="500">
+  <img src="captures/img_11.png" width="700">
 </p>
 
 ## Vault
@@ -116,18 +116,18 @@ ou
 _vault server -dev_
 
 <p align="center">
-  <img src="captures/img_13.png" width="500">
+  <img src="captures/img_13.png" width="700">
 </p>
 
 
 **Connecter à vault avec le token généré**
 
 <p align="center">
-  <img src="captures/img_14.png" width="500">
+  <img src="captures/img_14.png" width="700">
 </p>
 
 <p align="center">
-  <img src="captures/img_12.png" width="500">
+  <img src="captures/img_12.png" width="700">
 </p>
 
 **Créer Key/Value**
@@ -145,45 +145,45 @@ _vault server -dev_
 </ul>
 
 <p align="center">
-  <img src="captures/img_15.png" width="500">
+  <img src="captures/img_15.png" width="700">
 </p>
 
 **Pour Retourner key/value**
 <p align="center">
-  <img src="captures/img_16.png" width="500">
+  <img src="captures/img_16.png" width="700">
 </p>
 
 **http://127.0.0.1:8200/ui/vault/secrets/secret/show/billing-service**
 
 <p align="center">
-  <img src="captures/img_17.png" width="500">
+  <img src="captures/img_17.png" width="700">
 </p>
 
 <p align="center">
-  <img src="captures/img_18.png" width="500">
+  <img src="captures/img_18.png" width="700">
 </p>
 
 <p align="center">
-  <img src="captures/img_23.png" width="500">
+  <img src="captures/img_23.png" width="700">
 </p>
 
 # Frontend
 
 ## Liste des clients
 <p align="center">
-  <img src="captures/img_19.png" width="500">
+  <img src="captures/img_19.png" width="700">
 </p>
 
 ## Liste des commandes du client ID=1
 <p align="center">
-  <img src="captures/img_21.png" width="500">
+  <img src="captures/img_21.png" width="700">
 </p>
 ## Les détails de la commande ID=1 du client ID=1
 <p align="center">
-  <img src="captures/img_22.png" width="500">
+  <img src="captures/img_22.png" width="700">
 </p>
 
 ## Liste des produits
 <p align="center">
-  <img src="captures/img_20.png" width="500">
+  <img src="captures/img_20.png" width="700">
 </p>
