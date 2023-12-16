@@ -1,5 +1,5 @@
 # Mise en oeuvre des architectures micro-services : Spring cloud Congig, Consul Discovery, Consul Config, Vault
-
+Projet visant à développer et interconnecter les microservices en utilisant la configuration Consul, une passerelle (Gateway), Feign, la configuration Vault, la sécurité Spring, ainsi qu'une interface utilisateur Frontend réalisée avec Angular.
 ## Architecture Micro-services
 <p align="center">
   <img src="captures/img.png" width="700">
