@@ -178,6 +178,7 @@ _vault server -dev_
 <p align="center">
   <img src="captures/img_21.png" width="700">
 </p>
+
 ## Les détails de la commande ID=1 du client ID=1
 <p align="center">
   <img src="captures/img_22.png" width="700">
